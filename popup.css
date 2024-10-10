@@ -1,0 +1,49 @@
+/* popup.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  width: 300px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.element-block {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.xpath-item {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.xpath-type {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.xpath-text {
+  flex: 1;
+  margin-right: 5px;
+  word-break: break-all;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
